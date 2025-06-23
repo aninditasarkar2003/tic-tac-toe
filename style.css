@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #000000;
+    text-align: center;
+
+}
+
+.container{
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5 vmin;
+}
+
+.startgame{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+#box{
+    height: 18vmin;
+    width: 18vmin ;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.3);
+    font-size: 8vmin;
+    color: #392B58;
+    background-color: #FFDEDE ;
+}
+
+#reset-btn{
+    padding: 1rem;
+    font-size: 1.3rem;
+    margin-top: 20px;
+    background-color: #FF0B55;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+}
+
+.player-container {
+  display: flex;              /* Enables horizontal layout */
+  gap: 100px;                  /* Optional: space between boxes */
+  justify-content: center;   /* Optional: center the row */
+  margin-top: 20px;
+}
+
+.player-box {
+  padding: 10px 20px;
+  background-color:#FFDEDE;
+  border: 2px solid #333;
+  font-size: 1.5rem;
+  border-radius: 12px;
+  
+}
+
+ #new-btn{
+    padding: 1rem;
+    margin-top: 20px;
+    font-size: 1.3rem;
+    background-color: #FF0B55;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+    
+ }
+
+ #title{
+    text-align: center;
+    margin-top: 30px;
+    font-family:"Michroma", sans-serif;
+    color: #FF0B55;
+    
+  font-weight: 400;
+  font-style: normal;
+ }
